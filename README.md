@@ -14,13 +14,13 @@ This project addresses **UN SDG 13: Climate Action** by predicting CO2 emissions
 ## Dataset
 - Source: [Our World Data co2-data](https://github.com/owid/co2-data/blob/master/owid-co2-data.csv)
 - Features: population, gdp, primary_energy_consumption, oil_co2, cement_co2, other_industry_co2
-- Target: co2 (ennisions in metric tons)
+- Target: co2 (emmisions in metric tons)
 
 ## Model Performance
 - **Linear Regression**: MAE = 465.39 tons, R² = 0.7597 (75.97% variance explained).
 - **Random Forest**: MAE = 332.04 tons, R² = 0.8142 (81.42% variance explained).
 - Random Forest outperforms Linear Regression, providing more accurate predictions for CO2 emissions.
-![Model Comparison](model_comparison.png)
+![Model Comparison](screenshots/model_comparison.png)
 
 ## Feature Importance
 The Random Forest Regressor identified:
