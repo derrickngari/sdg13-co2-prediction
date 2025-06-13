@@ -2,6 +2,9 @@
 
 This project addresses **UN SDG 13: Climate Action** by predicting CO2 emissions using supervised learning (linear regression and random forest). The model uses features like population, GDP, and energy consumption to forecast emissions, helping policymakers prioritize climate interventions.
 
+## Article Link
+-Article: [Check the Article](https://medium.com/@derrickngari03/predicting-co2-emissions-for-climate-action-using-machine-learning-1943e5fb5b03)
+
 ## Demo
 ![Correlation Matrix](screenshots/correlation_matrix.png)
 ![Predictions](screenshots/predictions.png)
